@@ -1,0 +1,65 @@
+html {
+    font-size: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: -2.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+footer>div.center {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 16rem;
+    height: 8rem;
+    border-radius: 8rem 8rem 0 0;
+    background: linear-gradient(to right bottom, #448, #337);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.45);
+}
+
+footer>div.circle {
+    --far: 13rem;
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    border-radius: 8rem;
+    background-color: #00000008;
+}
+
+footer>div.circle:nth-child(2) {
+    transform: translate(calc(calc(var(--far) * cos(210deg)) - 50%), calc(var(--far) * sin(210deg)));
+}
+
+footer>div.circle:nth-child(3) {
+    transform: translate(calc(calc(var(--far) * cos(240deg)) - 50%), calc(var(--far) * sin(240deg)));
+}
+
+footer>div.circle:nth-child(4) {
+    transform: translate(calc(calc(var(--far) * cos(270deg)) - 50%), calc(var(--far) * sin(270deg)));
+}
+
+footer>div.circle:nth-child(5) {
+    transform: translate(calc(calc(var(--far) * cos(300deg)) - 50%), calc(var(--far) * sin(300deg)));
+}
+
+footer>div.circle:nth-child(6) {
+    transform: translate(calc(calc(var(--far) * cos(330deg)) - 50%), calc(var(--far) * sin(330deg)));
+}
+
+div.circle>img {
+    object-fit: contain;
+    height: 2rem;
+    margin: 0.25rem 1rem;
+}
+
+div.circle>p {
+    width: 100%;
+    text-align: center;
+    margin: 0.1rem 0 0.2rem;
+    line-height: 1;
+    font-size: 7px;
+}
