@@ -4,7 +4,10 @@ HTML+CSS+JSの小技とかのデモを置く
 
 ## 利用規約
 
-Author : AyaExpTech  
-Licensed by "AeTOS for Everyone"
-> https://axtech.dev/license/
-> 著作権は保持したままですが勝手に使ってください、そういうもんでしょ
+Copyright (c) 2023-  
+AyaExpTech, Ayasaka-Koto
+
+以下の規約のいずれかに従ってください。  
+Follow one of the following licenses.
+
+- "AeTOS for Everyone" …… https://axtech.dev/license/#aetos-for-everyone
