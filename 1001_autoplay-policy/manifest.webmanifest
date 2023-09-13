@@ -1,0 +1,16 @@
+{
+    "name": "page-title",
+    "short_name": "title",
+    "start_url": "./",
+    "display": "fullscreen",
+    "icons": [
+        {
+            "src": "https://axtech.dev/img/logo.svg",
+            "sizes": "150x150",
+            "type": "image/png"
+        }
+    ],
+    "background_color": "#224",
+    "orientation": "landscape",
+    "description": "Description"
+}
