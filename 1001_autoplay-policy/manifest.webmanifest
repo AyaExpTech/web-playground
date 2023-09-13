@@ -1,7 +1,7 @@
 {
     "name": "page-title",
     "short_name": "title",
-    "start_url": "./",
+    "start_url": "/1001_autoplay-policy/youtube.html",
     "display": "fullscreen",
     "icons": [
         {
